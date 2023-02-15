@@ -36,3 +36,26 @@
 
 
 // sort element 
+
+// let arr = [1, 4, 4, 3, 9, 5, 8];
+
+// arr.sort((x1, x2) => {
+//   if (x1 < x2) {
+//     return -1;
+//   }
+//   if (x1 === x2) {
+//     return 0;
+//   }
+//   if (x1 > x2) {
+//     return +1;
+//   }
+// });
+// console.log(arr);
+
+
+// let arr = [1, 4, 4, 3, 9, 5, 8];
+
+// arr.sort((x1,x2)=>x1 - x2)
+
+// console.log(arr);
+
