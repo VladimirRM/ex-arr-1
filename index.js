@@ -1,14 +1,13 @@
-// sum  for reduce 
+// sum  for reduce
 // max  for reduce Math
-// sort  number item 
+// sort  number item
 
-let arr = [1,2,3,4,5,6]
+let arr = [1, 2, 3, 4, 5];
 
+let max = arr[0];
 
-let sum = arr.reduce((acc,next)=>acc + next)
-
-
-
+for (let i = 0; i < arr.length; i++) {
+  sum = Math.max(arr[i], max);
+}
 
 console.log(sum);
-
