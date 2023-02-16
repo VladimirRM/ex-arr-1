@@ -1,5 +1,8 @@
-let arr = [1, 2, 3, 4, 5, 6, 8];
+let arr = [1, 2, 3, 4, 5];
 
-let max = arr.reduce((acc, next) => Math.max(acc, next));
+let sum = 0;
 
-console.log(max);
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+console.log(sum);
