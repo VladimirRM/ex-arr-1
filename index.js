@@ -1,24 +1,23 @@
-// sum  for reduce
-// max  for reduce Math reduce-Math
-// sort  number item
+// sum  for reduce;
+// max  for reduce Math reduce-Math;
+// sort  number, item, localeCompare;
+// reverse for 
 
-let users = [
-  {
-    name: "Ivan",
-    age: 13,
-  },
-  {
-    name: "aveta",
-    age: 48,
-  },
-  {
-    name: "Calina",
-    age: 33,
-  },
-];
 
-users.sort((x1, x2) => {
-  return x1.name.localeCompare(x2.name);
-});
 
-console.log(users);
+
+let arr = [1,2,3,4,5,]
+
+let reversed = []
+
+
+for(let i=arr.length - 1;i>=0;i--){
+    reversed.push(arr[i])
+}
+
+console.log(reversed);
+
+
+
+
+
