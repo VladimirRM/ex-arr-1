@@ -12,3 +12,7 @@ let users = [
     age: 24,
   },
 ]
+
+users.sort((x1,x2)=> x1.age-x2.age)
+
+console.log(users);
