@@ -67,6 +67,9 @@
 
 // console.log(arr);
 
+
+///////// sort item/////////
+
 // user = [
 //     {name:'ana',
 //       age:32
@@ -86,3 +89,10 @@
 // user.sort((u1,u2)=>u1.age - u2.age)
 
 // console.log(user);
+
+
+// users.sort((x1, x2) => {
+//     return x1.name.localeCompare(x2.name);
+//   });
+  
+//   console.log(users);
