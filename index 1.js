@@ -1,3 +1,5 @@
+///////////sum number ////////////////
+
 // let arr = [1,2,3,4,5,6]
 
 // let sum = 0
@@ -10,7 +12,7 @@
 
 // console.log(sum);
 
-// max number 
+////////// max number ///////////////
 
 // let arr = [1,2,3,4,5,6]
 
@@ -22,20 +24,27 @@
 //     }
 // }
 
-// for  (let i=0; i<arr.length;i++){
-//     max = arr.Math((arr[i],max))
-// }
+
+// let arr = [1, 2, 3, 4, 5, 6,8];
+
+// let max = arr[0]
+
+// for  (let i=1; i<arr.length;i++){
+//       max = Math.max(arr[i],max)
+//    }
+
+// console.log(max);
 
 
 
-// function newFunction() {
-//     let max = arr.reduce((acc, cur) => Math.max(acc, cur))
+// let max = arr.reduce((acc, next) => Math.max(acc, next));
+
 
 //     console.log(max)
 // }
 
 
-// sort element 
+/////////////// sort element //////////////////
 
 // let arr = [1, 4, 4, 3, 9, 5, 8];
 
@@ -52,7 +61,9 @@
 // });
 // console.log(arr);
 
-//    sort number
+//////////   sort number  /////////////
+
+
 // let arr = [1, 4, 4, 3, 9, 5, 8];
 
 // arr.sort((x1,x2)=>x1 - x2)

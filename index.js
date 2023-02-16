@@ -1,19 +1,5 @@
-user = [
-    {name:'ana',
-      age:32
-    },
-    {name:'ivan',
-      age:33
-    },
-    {name:'petro',
-      age:34
-    },
-    {name:'kuzya',
-      age:60
-    },
-]
+let arr = [1, 2, 3, 4, 5, 6, 8];
 
+let max = arr.reduce((acc, next) => Math.max(acc, next));
 
-user.sort((u1,u2)=>u1.age - u2.age)
-
-console.log(user);
+console.log(max);
