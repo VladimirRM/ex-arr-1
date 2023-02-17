@@ -132,3 +132,11 @@
 // }
 
 // console.log(notFalsy);
+
+
+
+const arr = [7, 0, "hello", 5, false, NaN];
+
+const notFalsy = arr.filter(Boolean)
+
+console.log(notFalsy);
