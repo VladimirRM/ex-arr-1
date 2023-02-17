@@ -2,28 +2,16 @@
 // max  for reduce Math reduce-Math;
 // sort  number, item, localeCompare;
 // reverse for map
-// false arr 
+// false arr
 
+const arr = [7, 0, "hello", 5, false, NaN];
 
-const arr = [null, 1, 'hello', 5,false, Nan]
+let notFalsy = [];
 
-
-let notFalsy = []
-
-
-for ( let i=0; i<arr.length;i++){
-  
+for (let i = 0; i < arr.length; i++) {
+  if (!!arr[i]) {
+    notFalsy.push(arr[i]);
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(notFalsy);
