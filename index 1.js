@@ -117,3 +117,18 @@
 // let reversed = arr.map((e,index,arr)=>arr[arr.length -index - 1])
 
 // console.log(re);
+
+//////////////false array///////
+
+
+// const arr = [7, 0, "hello", 5, false, NaN];
+
+// let notFalsy = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (!!arr[i]) {
+//     notFalsy.push(arr[i]);
+//   }
+// }
+
+// console.log(notFalsy);
