@@ -1,21 +1,27 @@
 // sum  for reduce;
 // max  for reduce Math reduce-Math;
 // sort  number, item, localeCompare;
-// reverse for 
+// reverse for map
+// false arr 
 
 
+const arr = [null, 1, 'hello', 5,false, Nan]
 
 
-let arr = [1,2,3,4,5,]
-
-let reversed = []
+let notFalsy = []
 
 
-for(let i=arr.length - 1;i>=0;i--){
-    reversed.push(arr[i])
+for ( let i=0; i<arr.length;i++){
+  
 }
 
-console.log(reversed);
+
+
+
+
+
+
+
 
 
 

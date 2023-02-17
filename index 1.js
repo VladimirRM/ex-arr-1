@@ -99,6 +99,8 @@
 
 
 ////////reverse/////////
+
+
 // let arr = [1,2,3,4,5,]
 
 // let reversed = []
@@ -109,3 +111,9 @@
 // }
 
 // console.log(reversed);
+
+// let arr = [1,2,3,4,5,]
+
+// let reversed = arr.map((e,index,arr)=>arr[arr.length -index - 1])
+
+// console.log(re);
