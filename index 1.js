@@ -8,6 +8,8 @@
 //       sum += arr[i]
 // }
 // console.log(sum);
+
+
 // let sum = arr.reduce((acc,cur)=> acc + cur)
 
 // console.log(sum);
