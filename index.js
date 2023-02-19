@@ -4,10 +4,13 @@
 // reverse for, map;
 // false arr for, filter
 
+let arr = [1, 2, 3, 4, 5, 6,7];
+
+let sum = 0;
 
 
-let arr = [1,2,3,4,5,6,7]
+for(let i =0; i<arr.length;i++){
+  sum += arr[i]
+}
 
-arr.reverse((x1,x2)=>(x1,x2))
-
-console.log(arr);
+console.log(sum);
