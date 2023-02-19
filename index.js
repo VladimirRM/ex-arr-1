@@ -6,6 +6,10 @@
 
 let arr = [1, 2, 3, 4, 5, 6];
 
-let sum = arr.reduce((acc, next)=> acc + next)
+let max = arr[0];
 
-console.log(sum);
+for (let i = 0; i < arr.length; i++) {
+  max = Math.max(arr[i], max);
+}
+
+console.log(max);
