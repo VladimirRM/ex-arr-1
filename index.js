@@ -4,8 +4,8 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [1, 2, 3, 5, 6, 7, ];
+let arr = [2, 4, 7, 9, 5, 3, 6, 7];
 
-let max = arr.reduce((acc, next) => Math.max(acc, next));
+arr.sort((x1, x2) => x1 - x2);
 
-console.log(max);
+console.log(arr);
