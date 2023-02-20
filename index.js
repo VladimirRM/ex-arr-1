@@ -4,23 +4,23 @@
 // reverse for, map;
 // false arr for, filter
 
-let users = [
+let user = [
   {
-    name: "Angel",
-    age: 23,
+    name: "Artur",
+    age: 32,
   },
   {
-    name: "Peter",
-    age: 35,
+    name: "Yana",
+    age: 12,
   },
   {
     name: "Boris",
-    age: 18,
+    age: 34,
   },
 ];
 
-users.sort((x1, x2) => {
+user.sort((x1, x2) => {
   return x1.name.localeCompare(x2.name);
 });
 
-console.log(users);
+console.log(user);
