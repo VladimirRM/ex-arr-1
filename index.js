@@ -4,8 +4,21 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [2, 4, 7, 9, 5, 3, 6, 7];
+let users = [
+  {
+    name: "Angel",
+    age: 23,
+  },
+  {
+    name: "Peter",
+    age: 35,
+  },
+  {
+    name: "Boris",
+    age: 18,
+  },
+];
 
-arr.sort((x1, x2) => x1 - x2);
+users.sort((x1, x2) => x1.age - x2.age);
 
-console.log(arr);
+console.log(users);
