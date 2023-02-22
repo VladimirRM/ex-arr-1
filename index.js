@@ -4,8 +4,14 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [1, 2, 3, 5, 6];
+let arr = [1, 2, 8, 3, 5, 6];
 
+let max = arr[0];
 
+for (let i = 0; i < arr.length; i++) {
+  if (max < arr.length) {
+    max = arr[i];
+  }
+}
 
-console.log(sum);
+console.log(max);
