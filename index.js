@@ -4,23 +4,13 @@
 // reverse for, map;
 // false arr for, filter
 
-let user = [
-  {
-    name: "Artur",
-    age: 32,
-  },
-  {
-    name: "Yana",
-    age: 12,
-  },
-  {
-    name: "Boris",
-    age: 34,
-  },
-];
+let arr = [1, 2, 3, 4, 5, 6];
 
-user.sort((x1, x2) => {
-  return x1.name.localeCompare(x2.name);
-});
+let sum = 0;
 
-console.log(user);
+
+for (let i =0; i<arr.length;i++){
+    sum += arr[i]
+}
+
+console.log(sum);
