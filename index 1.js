@@ -14,7 +14,7 @@
 
 // console.log(sum);
 
-////////// max number ///////////////
+/////////////////////// MAX NUMBER ///////////////
 
 // let arr = [1,2,3,4,5,6]
 
@@ -28,7 +28,7 @@
 
 // let max = arr[0]
 
-// for  (let i=1; i<arr.length;i++){
+// for  (let i=0; i<arr.length;i++){
 //       max = Math.max(arr[i],max)
 //    }
 
