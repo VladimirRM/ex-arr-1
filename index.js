@@ -6,8 +6,8 @@
 
 // let arr = [1, NaN, "Ivan", false, 31, "6", -7];
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+let arr = [1, 3, 67, 9, 5, 4];
 
-let reversed = arr.map((item, i, arr) => arr[arr.length - i - 1]);
+arr.sort();
 
-console.log(reversed);
+console.log(arr[1]);
