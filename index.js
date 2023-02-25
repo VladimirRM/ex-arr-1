@@ -6,8 +6,23 @@
 
 // let arr = [1, NaN, "Ivan", false, 31, "6", -7];
 
-let arr = [1, 2, 3, 4, 5, 6, 7,8];
+let user = [
+  {
+    name: "Ivan",
+    age: 21,
+  },
+  {
+    name: "Anna",
+    age: 35,
+  },
+  {
+    name: "Yanina",
+    age: 26,
+  },
+];
 
-let max = arr.reduce((acc, next) => Math.max(acc, next));
+user.sort((x1, x2) => {
+ return x1.name.localeCompare(x2.name);
+});
 
-console.log(max);
+console.log(user);
