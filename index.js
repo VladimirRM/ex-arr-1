@@ -6,8 +6,11 @@
 
 // let arr = [1, NaN, "Ivan", false, 31, "6", -7];
 
-let arr = [1, 3, 67, 9, 5, 4];
+let arr = [1, 2, 3, 4, 5, 6, 7];
 
-arr.sort();
+let sum = 0;
 
-console.log(arr[1]);
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+console.log(sum);
