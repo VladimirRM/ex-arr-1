@@ -4,11 +4,22 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+let user = [
+  {
+    name: "Ivan",
+    age: 42,
+  },
+  {
+    name: "Yana",
+    age: 32,
+  },
+  {
+    name: "Artem",
+    age: 12,
+  },
+];
+user.sort((x1, x2) => {
+  return x1.name.localeCompare(x2.name);
+});
 
-let max = arr[0];
-
-for (let i = 0; i < arr.length; i++) {
-  max = Math.max(arr[i], max);
-}
-console.log(max);
+console.log(user);
