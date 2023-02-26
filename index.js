@@ -4,9 +4,4 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [1, NaN, "Ivan", false, 31, "6", -7];
 
-let notFalsy = arr.filter(Boolean)
-
-
-console.log(notFalsy);
