@@ -4,22 +4,8 @@
 // reverse for, map;
 // false arr for, filter
 
-let user = [
-  {
-    name: "Ivan",
-    age: 42,
-  },
-  {
-    name: "Yana",
-    age: 32,
-  },
-  {
-    name: "Artem",
-    age: 12,
-  },
-];
-user.sort((x1, x2) => {
-  return x1.name.localeCompare(x2.name);
-});
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-console.log(user);
+let reversed = arr.map((item, i, arr) => arr[arr.length - i - 1]);
+
+console.log(reversed);
