@@ -6,8 +6,8 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 3, 4, 5, 6];
+let arr = [3, 5, 7, 5, 3, 7, 8];
 
-let max = arr.reduce((acc, next) => Math.max(acc, next));
+arr.sort((x1, x2) => x1 - x2);
 
-console.log(max);
+console.log(arr);
