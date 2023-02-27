@@ -6,10 +6,8 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+let arr = [1, 2, 3, 4, 5, 6];
 
-let max = arr;
-
-
+let max = arr.reduce((acc, next) => Math.max(acc, next));
 
 console.log(max);
