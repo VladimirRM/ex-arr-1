@@ -8,6 +8,6 @@
 
 let arr = [1, 2, 3, 4, 5, 6];
 
-let max = arr.reduce((acc, item) => Math.max(acc, item));
+arr.sort((x1, x2) => x1 - x2);
 
-console.log(max);
+console.log(arr);
