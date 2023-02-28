@@ -6,8 +6,23 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 3, 4, 5, 6];
+ user =[
+    {
+        name:'Ivan',
+        age: 40
+    },
+    {
+        name:'Yana',
+        age: 15
+    },
+    {
+        name:'Alyosha',
+        age: 12
+    },
+]
 
-arr.sort((x1, x2) => x1 - x2);
+user.sort((x1,x2)=> x1.age - x2.age)
 
-console.log(arr);
+
+
+console.log(user);
