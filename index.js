@@ -6,23 +6,8 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-user = [
-  {
-    name: "Ivan",
-    age: 40,
-  },
-  {
-    name: "Yana",
-    age: 15,
-  },
-  {
-    name: "Alyosha",
-    age: 12,
-  },
-];
+let arr = [1, 2, 3, 4, 5, 6, 7, 7];
 
-user.sort((x1, x2) => {
-  return x1.name.localeCompare(x2.name);
-});
+let reversed = arr.map((item, i, arr) => arr[arr.length - i - 1]);
 
-console.log(user);
+console.log(reversed);
