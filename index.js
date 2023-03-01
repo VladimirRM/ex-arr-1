@@ -6,11 +6,6 @@
 
 const arr = [7, 0, "hello", 5, false, NaN];
 
-let notFalsy = [];
+let notFalsy = arr.filter(Boolean);
 
-for (let i = 0; i < arr.length; i++) {
-  if (!!arr[i]) {
-    notFalsy.push(arr[i]);
-  }
-}
 console.log(notFalsy);
