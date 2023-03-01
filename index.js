@@ -8,6 +8,6 @@
 
 let arr = [1, 3, 5, 8, 8, 4, 3];
 
-let reve
+let reversed = arr.map((item, i, arr) => arr[arr.length - i - 1]);
 
-console.log(arr);
+console.log(reversed);
