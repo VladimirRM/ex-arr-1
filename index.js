@@ -6,23 +6,8 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let user = [
-  {
-    name: "ivan",
-    age: 42,
-  },
-  {
-    name: "Yana",
-    age: 43,
-  },
-  {
-    name: "Anna",
-    age: 23,
-  },
-];
+let arr = [1, 3, 5, 8, 8, 4, 3];
 
-user.sort((x1, x2) => {
-  return x1.name.localeCompare(x2.name);
-});
+let reve
 
-console.log(user);
+console.log(arr);
