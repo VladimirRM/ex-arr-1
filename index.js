@@ -8,19 +8,21 @@
 
 let user = [
   {
-    user: "ivan",
+    name: "ivan",
     age: 42,
   },
   {
-    user: "Yana",
+    name: "Yana",
     age: 43,
   },
   {
-    user: "Anna",
+    name: "Anna",
     age: 23,
   },
 ];
 
-user.sort((x1, x2) => x1.age - x2.age);
+user.sort((x1, x2) => {
+  return x1.name.localeCompare(x2.name);
+});
 
 console.log(user);
