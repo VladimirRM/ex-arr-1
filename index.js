@@ -7,7 +7,12 @@
 // const arr = [7, 0, "hello", 5, false, NaN];
 
 arr = [1, 2, 3, 4, 5, 6, 7];
+let max = arr[0];
 
-let sum = arr.reduce((acc, item) => acc + item);
+for (let i = 0; i < arr.length; i++) {
+  if (max < arr[i]) {
+    max = arr[i];
+  }
+}
 
-console.log(sum);
+console.log(max);
