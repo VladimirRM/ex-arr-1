@@ -16,7 +16,7 @@ let user = [
     age: 222,
   },
   {
-    name: "Andrey",
+    name: "NINA",
     age: 21,
   },
 ];
