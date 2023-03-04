@@ -8,11 +8,8 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let result = [];
-arr.forEach((item, i, arr) => {
-  if (result < arr[i]) {
-    result = arr[i];
-  }
-});
+let max = arr.reduce((acc,item)=> Math);
 
-console.log(result);
+
+
+console.log(max);
