@@ -8,6 +8,6 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-arr.re((a, b) => a - b);
+arr.reverse((a, b) => a - b);
 
 console.log(arr);
