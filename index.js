@@ -4,13 +4,8 @@
 // reverse for, map;
 // false arr for, filter
 
-const arr = [7, 0, "hello", 5, false, NaN];
+let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let notFalsy = [];
-for (let i = 0; i < arr.length; i++) {
-  if (!!arr[i]) {
-    notFalsy.push(arr[i]);
-  }
-}
 
-console.log(notFalsy);
+
+console.log(sum);
