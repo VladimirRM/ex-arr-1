@@ -4,25 +4,14 @@
 // reverse for, map;
 // false arr for, filter
 
-// const arr = [7, 0, "hello", 5, false, NaN];
+const arr = [7, 0, "hello", 5, false, NaN];
 
-let user = [
-  {
-    name: "Ivan",
-    age: 21,
-  },
-  {
-    name: "Yana",
-    age: 19,
-  },
-  {
-    name: "Anna",
-    age: 23,
-  },
-];
+let notFalsy = [];
 
-user.sort((a, b) => {
-  return a.name.localeCompare(b.name);
-});
+for (let i = 0; i < arr.length; i++) {
+  if (!!arr[i]) {
+    notFalsy.push(arr[i]);
+  }
+}
 
-console.log(user);
+console.log(notFalsy);
