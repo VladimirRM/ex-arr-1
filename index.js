@@ -4,8 +4,25 @@
 // reverse for, map;
 // false arr for, filter
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+// const arr = [7, 0, "hello", 5, false, NaN];
 
-arr.sort((a, b) => a - b);
+let user = [
+  {
+    name: "Ivan",
+    age: 21,
+  },
+  {
+    name: "Yana",
+    age: 19,
+  },
+  {
+    name: "Anna",
+    age: 23,
+  },
+];
 
-console.log(arr);
+user.sort((a, b) => {
+  return a.name.localeCompare(b.name);
+});
+
+console.log(user);
