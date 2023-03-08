@@ -142,3 +142,65 @@
 // const notFalsy = arr.filter(Boolean)
 
 // console.log(notFalsy);
+
+/////////////////find average////////////
+
+// let array = [1, 2, 3, 5, 6, 7, 8];
+
+// let sum = 0;
+
+// for (let i = 0; i < array.length; i++) {
+//   sum += array[i];
+// }
+// let result = sum / array.length;
+
+// console.log(result);
+
+/////////find number //////////////
+// let array = [1, 2, 3, 5, 6, 7, 8, 9 ];
+
+// let num = 0;
+
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] === 9) {
+//     document.write('el done')
+//     ;
+//   }
+// }
+
+
+///////////////sum square num ////////////
+// let arr = [1, 2, 3, 5, 6, 7, 8, 9];
+
+// let num = 0;
+
+// for (let i = 0; i < array.length; i++) {
+//   sum += arr[i] * arr[i];
+// }
+
+// console.log(sum);
+
+
+//////// show number between condition ///////
+// let arr = [1, 2, 3, 5, 6, 7, 8, 9];
+
+// let num = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0 && arr[i] < 9) {
+//     console.log(arr[i]);
+//   }
+// }
+
+// console.log(num);
+
+
+////////////create 20 random number /////////
+
+// let arr = []
+
+// for( let i =0; i < 20; i++){
+//     arr.push(Math.round(Math.random()* 20) +1)
+// }
+
+// console.log(arr);
