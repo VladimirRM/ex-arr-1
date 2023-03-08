@@ -8,6 +8,6 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let sum = arr.reduce((acc, item) => acc + item);
+let sum = arr.reduce((acc, item) => Math.max(acc, item));
 
 console.log(sum);
