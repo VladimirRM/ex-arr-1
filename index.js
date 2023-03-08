@@ -4,10 +4,13 @@
 // reverse for, map;
 // false arr for, filter
 
-// const arr = [7, 0, "hello", 5, false, NaN];
+const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+let notFalsy = [];
+for (let i = 0; i < arr.length; i++) {
+  if (!!arr[i]) {
+    notFalsy.push(arr[i]);
+  }
+}
 
-arr.reverse();
-
-console.log(arr);
+console.log(notFalsy);
