@@ -21,6 +21,8 @@ let user = [
   },
 ];
 
-user.sort((a, b) => a.age - b.age);
+user.sort((a, b) => {
+  return a.name.localeCompare(b.name);
+});
 
 console.log(user);
