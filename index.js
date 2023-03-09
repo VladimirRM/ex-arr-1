@@ -8,20 +8,13 @@
 // false arr for, filter
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-// let arr = []
+let arr = [1, 2, 3, 4, 5, 6, 7];
 
-// for( let i =0; i < 20; i++){
-//     arr.push(Math.round(Math.random()* 20) +1)
-// }
+let sum = 0;
 
-// console.log(arr);
-const textOne = document.querySelector(".out");
-textOne.textContent = 'hi';
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+let res = sum / arr.length
 
-// const textTwo = document.createElement("div");
-
-// textTwo.innerHTML = `Second`;
-// textOne = innerHTML;
-
-// console.log(textOne);
-// console.log(textTwo);
+console.log(res );
