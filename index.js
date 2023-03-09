@@ -1,8 +1,10 @@
 // sum  for, reduce;
 // average sum for;
+// find number in array
 // show number between condition
-// create 20 random number
 // max  for, reduce, Math reduce-Math;
+// create 20 random number
+// calc square all number
 // sort  number, item, localeCompare;
 // reverse for, map;
 // false arr for, filter
@@ -13,8 +15,9 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
-  sum += arr[i];
-}
-let res = sum / arr.length
+if ( arr[i] === 7)
 
-console.log(res );
+}
+
+
+console.log(res);
