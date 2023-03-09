@@ -11,14 +11,9 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+let arr = [];
 
-let sum = [];
-
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > 0 && arr[i] < 5) {
-    sum = arr[i]
-    console.log(sum);
-  }
+for (let i = 0; i < 20; i++) {
+  arr.push(Math.round(Math.random() * 20) + 1);
+  console.log(arr);
 }
-
