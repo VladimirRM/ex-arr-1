@@ -6,14 +6,16 @@
 // create 20 random number
 // calc square all number
 // sort  number, item, localeCompare;
-// reverse for, map;
+// reverse num, for, map;
 // false arr for, filter
-// const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [];
+const arr = [7, 0, "hello", 5, false, NaN];
 
-for (let i = 0; i < 20; i++) {
-  arr.push(Math.round(Math.random() * 100) + 1);
+let result = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (!!arr[i]) {
+    result.push(arr[i]);
+  }
 }
-
-console.log(arr);
+console.log(result);
