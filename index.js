@@ -18,7 +18,10 @@
 
 let arr = [1, 2, 2, -3, 4, 4, -4, 5, 5, -5, 6, -7];
 
-let max = arr.reduce((acc,item)=>Math.max(acc,item))
-
-// for (let i = 0; i < arr.length; i++) {}
-console.log(max);
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === arr[i - 1]) {
+    arr.splice(i, 1);
+    i++;
+  }
+}
+console.log(arr);
