@@ -14,14 +14,15 @@
 
 let arr = [1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6];
 
-// let result = [];
+let sum = 0;
 
 // let arr = [1, 2, 2, -3, 4, 4, -4, 5, 5, -5, 6, -7];
 
 let result = 0
 
 for( let i = 0; i<arr.length; i++){
-     result += arr[i] * arr[i]
+     sum += arr[i]
+     result = sum /arr.length
 }
 
 console.log(result);
