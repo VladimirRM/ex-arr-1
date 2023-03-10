@@ -10,14 +10,17 @@
 // reverse num, for, map;
 // false arr for, filter
 
-// const arr = [7, 0, "hello", 5, false, NaN];
+const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6];
+// let arr = [1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6];
+let res = [];
 
-let reversed = arr.map((item, i, arr) => arr[arr.length - i - 1]);
+for (let i = 0; i < arr.length; i++) {
+  if (!!arr[i]) {
+    res.push(arr[i]);
+  }
+}
 
-
+console.log(res);
 
 // for( let i = 0; i<arr.length; i++){}
-
-console.log(reversed);
