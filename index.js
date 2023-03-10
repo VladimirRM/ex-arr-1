@@ -2,7 +2,7 @@
 // average sum for;
 // find number in array
 // delete duplicate in array
-// show number between condition
+// show number between range
 // max  for, reduce, Math reduce-Math;
 // create 20 random number
 // calc square all number
