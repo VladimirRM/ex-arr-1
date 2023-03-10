@@ -16,14 +16,12 @@
 
 // let result = [];
 
-let arr = [1, 2, 2, -3, 4, 4, -4, 5, 5, -5, 6, -7];
+// let arr = [1, 2, 2, -3, 4, 4, -4, 5, 5, -5, 6, -7];
 
 let res = []
 
-for (let i = 0; i < arr.length; i++) {
-     if(arr[i] < 5 && arr[i] > 0){
-       res.push(arr[i])
-     }
+for (let i = 0; i = 20; i++) {
+   res.push(Math.round(Math.random() * 20) + 1)
   }
 
 console.log(res);
