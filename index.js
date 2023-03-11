@@ -14,12 +14,12 @@
 
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
-let sum = [];
+let sum = 0;
 
 // for (let i = 0; (i = 20); i++) {
-//   sum.push(Math.round(Math.random() * 20) + 1);
+//   sum += arr[i] * arr[i];
 // }
 
-// console.log(sum);
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
