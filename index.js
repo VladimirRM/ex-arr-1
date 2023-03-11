@@ -10,13 +10,15 @@
 // reverse num, for, map;
 // false arr for, filter
 
-const arr = [7, 0, "hello", 5, false, NaN];
+// const arr = [7, 0, "hello", 5, false, NaN];
 
-// let arr = [1, 2, 2, 2, 3, 4, 5, 5, 5, 5, 6];
-let res = arr.filter(Boolean);
+let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6];
 
+let sum = 0;
 
-
-console.log(res);
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
