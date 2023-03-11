@@ -17,11 +17,10 @@ let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
-   if( arr[i] === arr[i -1]){
-    arr.splice(i,1)
-    i--
-   }
+  if (arr[i] > 0 && arr[i] < 5) {
+        sum =  arr[i]
+    }
+    console.log(sum);
 }
-console.log(arr);
 
 // for( let i = 0; i<arr.length; i++){}
