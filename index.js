@@ -14,9 +14,8 @@
 
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
-let sum = 0;
-arr.sort((a, b) => a - b);
+let sum = arr.map((item, i, arr) => arr[arr.length - i - 1]);
 
-console.log(arr);
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
