@@ -17,10 +17,11 @@ let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
-  sum += arr[i];
-  result = sum / arr.length;
+  if (arr[i] === 3) {
+    sum = arr[i];
+  }
 }
 
-console.log(result);
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
