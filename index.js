@@ -14,10 +14,10 @@
 
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
-let sum = 0;
+let sum = [];
 
-for (let i = 0; i < arr.length; i++) {
-    sum = Math.max(arr[i],sum)
+for (let i = 0; (i = 20); i++) {
+  sum.push(Math.round(Math.random() * 20) + 1);
 }
 console.log(sum);
 
