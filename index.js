@@ -14,8 +14,13 @@
 
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
-let sum = arr.reduce((acc, item) => acc + item);
+let sum = 0;
 
-console.log(sum);
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+  result = sum / arr.length;
+}
+
+console.log(result);
 
 // for( let i = 0; i<arr.length; i++){}
