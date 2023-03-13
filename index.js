@@ -15,11 +15,7 @@
 // let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
-let sum = 0;
-
-for (let i = 0; i < arr.length; i++) {
-  sum = arr[i] * arr[i];
-}
+let sum = arr.map((item, i, arr) => arr[arr.length - i - 1]);
 
 console.log(sum);
 
