@@ -15,11 +15,11 @@
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-let sum = arr[0];
+let sum = arr.reduce((acc, item) => Math.max(acc, item));
 
-for (let i = 0; i < arr.length; i++) {
-  sum = Math.max(arr[i], sum);
-}
+// for (let i = 0; i < arr.length; i++) {
+//   sum = Math.max(arr[i], sum);
+// }
 console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
