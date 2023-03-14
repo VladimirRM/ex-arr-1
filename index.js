@@ -12,17 +12,15 @@
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
+// let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-
+let arr= [20]
 let sum = [];
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > sum) {
-    sum = arr[i];
-  }
-}
+arr.forEach((item, i, arr) => {
+  return (arr[20] = sum.push(Math.round(Math.random() *20) ));
+});
 console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
