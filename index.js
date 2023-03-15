@@ -18,11 +18,11 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 
 // let arr = [];
 
-let sum = [];
+let sum = arr.reduce((a, b) => Math.max(a, b));
 
-for (let i = 0; i < arr.length; i++) {
-  sum = Math.max(arr[i], sum);
-}
+// for (let i = 0; i < arr.length; i++) {
+//   sum = Math.max(arr[i], sum);
+// }
 
 console.log(sum);
 
