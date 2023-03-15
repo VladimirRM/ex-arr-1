@@ -21,8 +21,8 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 let sum = [];
 
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > 0 && arr[i] < 5) {
-    sum.push(arr[i]);
+  if (arr[i] > sum) {
+    sum = arr[i];
   }
 }
 
