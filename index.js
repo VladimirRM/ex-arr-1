@@ -20,7 +20,8 @@ let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
   sum += arr[i];
+  res = sum / arr.length;
 }
-console.log(sum);
+console.log(res);
 
 // for( let i = 0; i<arr.length; i++){}
