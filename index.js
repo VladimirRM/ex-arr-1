@@ -16,9 +16,9 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let sum = [];
+// let sum = [];
 
-sum = arr.sort((a,b)=> a- b)
+sum = arr.map((item,i,arr)=> arr[arr.length - i - 1])
 
 console.log(sum);
 
