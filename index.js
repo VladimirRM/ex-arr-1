@@ -16,13 +16,14 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-let sum = 0;
+let sum = [];
 
 for (let i = 0; i < arr.length; i++) {
-  sum += arr[i];
-  res = sum / arr.length;
+  if (arr[i] === 2) {
+    sum.push(arr[i]);
+  }
 }
 
-console.log(res);
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
