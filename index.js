@@ -16,9 +16,9 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-// let sum = [];
-
-sum = arr.map((item,i,arr)=> arr[arr.length - i - 1])
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
 
 console.log(sum);
 
