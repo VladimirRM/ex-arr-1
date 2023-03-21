@@ -15,9 +15,9 @@
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-arr.sort((a, b) => a - b);
-for (let i = 0; i < arr.length; i++) {}
 
-console.log(arr);
+let reverse = arr.map((item, i, arr) => arr[arr.length - i - 1]);
+
+console.log(reverse);
 
 // for( let i = 0; i<arr.length; i++){}
