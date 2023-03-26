@@ -21,8 +21,9 @@ let res = 0;
 let arr = [1, 2, 3, 4, 5, 6, 7];
 for (let i = 0; i < arr.length; i++) {
   res += arr[i];
+  sum = res / arr.length;
 }
 
-console.log(res);
+console.log(sum);
 
 // for( let i = 0; i<arr.length; i++){}
