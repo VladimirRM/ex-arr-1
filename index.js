@@ -16,14 +16,14 @@ let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [];
 
-let res = [0];
+let res = arr.reduce((a, b) => a + b);
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > res) {
-    res = arr[i];
-  }
-}
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > res) {
+//     res = arr[i];
+//   }
+// }
 
 console.log(res);
 
