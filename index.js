@@ -26,9 +26,7 @@ let sum = arr.reduce((a, c) => a + c);
 let res = arr[0];
 
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > res) {
-    res = arr[i];
-  }
+  res = Math.max(arr[i], res);
 }
 
 console.log(res);
