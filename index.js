@@ -23,10 +23,10 @@ let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 let sum = arr.reduce((a, c) => a + c);
-let res = arr[0];
+let res = [];
 
-for (let i = 0; i < arr.length; i++) {
-  res = Math.max(arr[i], res);
+for (let i = 0; i < 20; i++) {
+  arr.push(Math.round(Math.random() * 20) + 1);
 }
 
 console.log(res);
