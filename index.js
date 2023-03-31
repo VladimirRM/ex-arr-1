@@ -26,8 +26,9 @@ let sum = arr.reduce((a, c) => a + c);
 
 for (let i = 0; i < arr.length; i++) {
   sum += arr[i];
+  result = sum / arr.length;
 }
 
-console.log(sum);
+console.log(result);
 
 // for( let i = 0; i<arr.length; i++){}
