@@ -26,11 +26,10 @@ let sum = arr.reduce((a, c) => a + c);
 let res = [];
 
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === 2) {
-    res.push(arr[i]);
-  }
+
+  
 }
 
-console.log(res);
+console.log(arr);
 
 // for( let i = 0; i<arr.length; i++){}
