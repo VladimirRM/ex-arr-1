@@ -10,26 +10,24 @@
 // 10 reverse num, for, map;
 // 11 Filtered boolean type in arr, filter
 
-// user = [
-//   { name: "ana", age: 32 },
-//   { name: "ivan", age: 33 },
-//   { name: "petro", age: 34 },
-//   { name: "kuzya", age: 60 },
-// ];
+user = [
+  { name: "ana", age: 32 },
+  { name: "ivan", age: 33 },
+  { name: "petro", age: 34 },
+  { name: "kuzya", age: 60 },
+];
 
-const arr = [7, 0, "hello", 5, false, NaN];
+// const arr = [7, 0, "hello", 5, false, NaN];
 
 // let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 let res = [];
 
-for (let i = 0; i < arr.length; i++) {
-  if (!!arr[i]) {
-    res.push(arr[i]);
-  }
-}
+user.sort((a, b) => {
+  return a.age - b.age;
+});
 
-console.log(res);
+console.log(user);
 
 // for( let i = 0; i<arr.length; i++){}
