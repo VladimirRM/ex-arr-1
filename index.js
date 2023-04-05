@@ -19,15 +19,15 @@ user = [
 
 // const arr = [7, 0, "hello", 5, false, NaN];
 
-// let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
+let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-let res = [];
+let res = 0;
 
-user.sort((a, b) => {
-  return a.age - b.age;
-});
+for (let i = 0; i < arr.length; i++) {
+  res += arr[i];
+}
 
-console.log(user);
+console.log(res);
 
 // for( let i = 0; i<arr.length; i++){}
