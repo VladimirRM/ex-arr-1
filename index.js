@@ -22,8 +22,10 @@ user = [
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-arr.sort((a, b) => a - b);
+user.sort((a, b) => {
+  return a.name.localeCompare(b.name);
+});
 
-console.log(arr);
+console.log(user);
 
 // for( let i = 0; i<arr.length; i++){}
