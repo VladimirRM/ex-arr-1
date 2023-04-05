@@ -22,13 +22,12 @@ user = [
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-let res = 0;
+let res = [];
 
 for (let i = 0; i < arr.length; i++) {
-  res += arr[i];
-  result = res / arr.length;
+  if (arr[i] === 2) res.push(arr[i]);
 }
 
-console.log(result);
+console.log(res);
 
 // for( let i = 0; i<arr.length; i++){}
