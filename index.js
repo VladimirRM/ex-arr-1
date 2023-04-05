@@ -22,10 +22,8 @@ user = [
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-user.sort((a, b) => {
-  return a.name.localeCompare(b.name);
-});
+let reverse = arr.map((item, i, arr) => arr[arr.length - i - 1]);
 
-console.log(user);
+console.log(reverse);
 
 // for( let i = 0; i<arr.length; i++){}
