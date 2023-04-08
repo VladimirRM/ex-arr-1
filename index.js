@@ -24,11 +24,12 @@ let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
   sum += arr[i];
+  res = sum / arr.length;
 }
 
 // let res = [];
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
-console.log(sum);
+console.log(res);
 
 // for( let i = 0; i<arr.length; i++){}
