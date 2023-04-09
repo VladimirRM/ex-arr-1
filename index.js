@@ -21,8 +21,8 @@ user = [
 
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 let sum = [];
-arr.sort((a, b) => a - b);
-console.log(arr);
+let res = arr.reverse();
+console.log(res);
 
 // let res = [];
 
