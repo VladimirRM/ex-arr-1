@@ -22,10 +22,12 @@ user = [
 let arr = [1, 2, -2, 2, 3, -4, 5, -5, 5, 5, 6, 7];
 let sum = 0;
 for (let i = 0; i < arr.length; i++) {
-  sum += arr[i];
-  res = sum / arr.length;
+  if (arr[i] === arr[i - 1]) {
+    arr.splice(i, 1);
+    i--;
+  }
 }
-console.log(res);
+console.log(arr);
 
 // let res = [];
 
